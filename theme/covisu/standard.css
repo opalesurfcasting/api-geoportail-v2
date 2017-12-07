@@ -1,0 +1,174 @@
+.gpViewerUpperSeparator {
+  background-color:#0F0F0F;
+  width:100%;
+  line-height:0pt;
+  height:4px;
+}
+.gpHorizontalUpperToggle {
+  display:inline;
+  height:4px;
+}
+.gpViewerLowerSeparator {
+  background-color:#0F0F0F;
+  width:100%;
+  line-height:0pt;
+  height:4px;
+}
+.gpHorizontalLowerToggle {
+  display:inline;
+  height:4px;
+}
+.gpLeftColumnCell {
+  background-color:#0F0F0F;
+  margin:0px;
+  padding:0px;
+  border:0px;
+}
+.gpLeftColumn {
+  float:left;
+  position:relative;
+  left:0px;
+  top:0px;
+  height:590px;/* for 800x600 viewer */
+  width:169px;
+}
+.gpLeftColumnLayers {
+  float:left;
+  position:relative;
+  left:0px;
+  top:0px;
+  height:100%;
+}
+.gpCentralColumnCell {
+  margin:0px;
+  padding:0px;
+  border:0px;
+  width:100%;
+  height:100%;/* FF: ok, IE, opera: ko */
+}
+.gpVerticalLeftToggle {
+  float:right;
+  position:relative;
+  background-image:url(img/regl_Verti_Gauche.gif);
+  background-position:0% 50%;
+  background-repeat:no-repeat;
+  width:6px;
+  height:100%;
+  display:block;
+  cursor:pointer;
+}
+.gpRightColumnCell {
+  background-color:#0F0F0F;
+  margin:0px;
+  padding:0px;
+  border:0px;
+}
+.gpRightColumn {
+  float:left;
+  position:relative;
+  left:0px;
+  top:0px;
+  background-color:#0F0F0F;
+  width:88px;
+  height:590px;/* for 800x600 viewer */
+}
+.gpRightColumnTools {
+  float:left;
+  position:relative;
+  height:100%;
+}
+.gpVerticalRightToggle {
+  float:left;
+  position:relative;
+  background-image:url(img/regl_Verti_Droite.gif);
+  background-position:0% 50%;
+  background-repeat:no-repeat;
+  width:6px;
+  height:100%;
+  display:block;
+  cursor:pointer;
+}
+/* Overloading default styles : */
+.gpMainMapCell {
+  border:0px solid #FFFFFF;
+}
+.gpMap {
+  float:left;
+}
+.gpControlLayerSwitcher {
+  border:0px solid #0F0F0F;
+}
+.gpMainDivClass {
+  color:#C8C8C8;
+}
+.gpGroupDivClass {
+  margin:0px 0px 0px 1px;
+}
+.gpCLSContainer {
+  background-color: #0F0F0F;
+  border:0px solid #0F0F0F;
+}
+.gpControlPanelToggleItemActive {
+}
+.gpControlPanelToggleItemInactive {
+}
+.gpControlToolBox {
+  left:0px;
+  top:0px;
+}
+.gpToolBoxClass {
+  background-color:#0F0F0F;
+  border:0px solid #0F0F0F;
+}
+.gpToolBoxContent {
+  background-color:#282828;
+  border:0px solid #282828;
+  width:100%;
+}
+.gpToolBoxContentContainer {
+  border:0px solid #282828;
+}
+.gpControlNavToolbar div {
+  left:5%;
+}
+.gpZoomBarClass {
+  background-color:#191919;
+  border-top:0px solid #191919;
+}
+.gpControlInformation {
+  background-color:#0F0F0F;
+  border:0px solid #0F0F0F;
+  margin:0px auto;
+  height:50px;
+}
+.gpHorizontalUpperToggle {
+  background-image:url(img/regl_Horiz_Haut.gif);
+  background-position:50% 0%;
+  background-repeat:no-repeat;
+  width:100%;
+  height:6px;
+  display:block;
+  cursor:pointer;
+}
+/* Geoportal.Control.TerritorySelector:*/
+.gpControlTerritorySelector {
+  float:left;
+  width:100%;
+}
+.gpControlTerritorySelectorLabel {
+  font-size:0.75em;
+  margin-top:4px;
+}
+.gpControlTerritorySelectorContainer {
+}
+.gpControlTerritorySelector select {
+  font-size:0.50em;
+  text-align:right;
+}
+.gpControlTerritorySelector option {
+}
+/* dummy div to check css loaded : DO NOT REMOVE */
+.gpViewerStandard {
+  width:50px;
+  height:50px;
+}

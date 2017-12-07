@@ -1,0 +1,181 @@
+.gpViewerUpperSeparator {
+  background-color:#AFD3E8;
+  width:100%;
+  line-height:0pt;
+  height:4px;
+}
+.gpHorizontalUpperToggle {
+  display:inline;
+  height:4px;
+}
+.gpViewerLowerSeparator {
+  background-color:#AFD3E8;
+  width:100%;
+  line-height:0pt;
+  height:4px;
+}
+.gpHorizontalLowerToggle {
+  display:inline;
+  height:4px;
+}
+.gpLeftColumnCell {
+  background-color:#AFD3E8;
+  margin:0px;
+  padding:0px;
+  border:0px;
+}
+.gpLeftColumn {
+  float:left;
+  position:relative;
+  left:0px;
+  top:0px;
+  height:592px;/* for 800x600 viewer */
+  width:169px;
+}
+.gpLeftColumnLayers {
+  float:left;
+  position:relative;
+  left:0px;
+  top:0px;
+  height:100%;
+}
+.gpCentralColumnCell {
+  margin:0px;
+  padding:0px;
+  border:0px;
+  width:100%;
+  height:100%;/* FF: ok, IE, opera: ko */
+}
+.gpVerticalLeftToggle {
+  float:right;
+  position:relative;
+  background-image:url(img/regl_Verti_Gauche_Bleu.gif);
+  background-position:0% 50%;
+  background-repeat:no-repeat;
+  width:6px;
+  height:100%;
+  display:block;
+  cursor:pointer;
+}
+.gpRightColumnCell {
+  background-color:#AFD3E8;
+  margin:0px;
+  padding:0px;
+  border:0px;
+}
+.gpRightColumn {
+  float:left;
+  position:relative;
+  left:0px;
+  top:0px;
+  background-color:#AFD3E8;
+  width:88px;
+  height:592px/* for 800x600 viewer */;
+}
+.gpRightColumnTools {
+  float:left;
+  position:relative;
+  height:100%;
+}
+.gpVerticalRightToggle {
+  float:left;
+  position:relative;
+  background-image:url(img/regl_Verti_Droite_Bleu.gif);
+  background-position:0% 50%;
+  background-repeat:no-repeat;
+  width:6px;
+  height:100%;
+  display:block;
+  cursor:pointer;
+}
+/* Overloading default styles : */
+.gpMainMapCell {
+  border:0px solid #FFFFFF;
+}
+.gpMap {
+  float:left;
+}
+.gpControlLayerSwitcher {
+  border:1px solid #AFD3E8;
+}
+.gpMainDivClass {
+  color:#000000;
+}
+.gpGroupDivClass {
+  margin:0px 0px 0px 1px;
+}
+.gpLayerDivClass {
+  background-color:#DEE8FF;
+}
+.gpLayerDivClassAlternate {
+  background-color:#AFD3E8;
+}
+.gpLayerSpanClassNotInRange {
+  color:#595E61;
+}
+.gpControlPanelToggleItemActive {
+}
+.gpControlPanelToggleItemInactive {
+}
+.gpControlToolBox {
+  left:0px;
+  top:0px;
+}
+.gpToolBoxClass {
+  background-color:#AFD3E8;
+  border:0px solid #FFFFFF;
+}
+.gpToolBoxContent {
+  background-color:#AFD3E8;
+  border:0px solid #FFFFFF;
+  width:100%;
+}
+.gpControlNavToolbar div {
+  left:5%;
+}
+.gpZoomBarClass {
+  border-bottom:1px solid #FFFFFF;
+}
+.nameScale {
+  color:#006699;
+}
+.gpControlInformation {
+  background-color:#AFD3E8;
+  border:0px solid #FFFFFF;
+  margin:0px auto;
+  height:50px;
+}
+.gpControlInformationMini {
+  background-image:url("img/minimized2-up.gif");
+}
+.gpSelectProjections {
+  background-color:#AFD3E8;
+}
+.gpLong, .gpLat {
+  background-color:#AFD3E8;
+}
+.gpSelectUnits {
+  background-color:#AFD3E8;
+}
+/* Geoportal.Control.TerritorySelector:*/
+.gpControlTerritorySelector {
+  float:left;
+  width:100%;
+}
+.gpControlTerritorySelectorLabel {
+  font-size:0.75em;
+  margin-top:4px;
+}
+.gpControlTerritorySelectorContainer {
+}
+.gpControlTerritorySelector select {
+  font-size:0.50em;
+  text-align:right;
+}
+.gpControlTerritorySelector option {
+}
+/* dummy div to check css loaded : DO NOT REMOVE */
+.gpViewerStandard {
+  width:50px;
+  height:50px;
+}

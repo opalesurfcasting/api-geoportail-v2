@@ -1,0 +1,40 @@
+* html .gpControlFloating .gpControlFloatingBody form {
+  height: expression(this.scrollHeight > 379 ? "380px" : "auto");
+}
+* html .gpControlLocationUtilityServiceGeocodeResults {
+  height: expression(this.scrollHeight > 79 ? "80px" : "auto");
+}
+* html .gpControlLocationUtilityServiceReverseGeocodeResults {
+  height: expression(this.scrollHeight > 79 ? "80px" : "auto");
+}
+* html .gpControlLocationUtilityServiceGeoNamesResults {
+  height: expression(this.scrollHeight > 79 ? "80px" : "auto");
+}
+* html .gpControlCSWResults {
+  height: expression(this.scrollHeight > 199 ? "200px" : "auto");
+}
+* html .gpControlAddVectorLayerResults {
+  height: expression(this.scrollHeight > 79 ? "80px" : "auto");
+}
+* html .gpControlAddImageLayerResults {
+  height: expression(this.scrollHeight > 79 ? "80px" : "auto");
+}
+* html .gpGroupDivClass {
+  height:expression(this.scrollHeight > 211 ? "212px" : "auto");
+}
+* html .gpLayerDivClass {
+  width:expression(this.parentNode.scrollHeight > 211 ? "88%":"98%");
+}
+* html .gpLayerDivClassAlternate {
+  width:expression(this.parentNode.scrollHeight > 211 ? "88%":"98%");
+}
+/* IE treats this as min-height as it augments the height as necessary */
+.gpControlMeasureToolbarResult {
+  height:35px;
+}
+.gpLayerDivClass {
+  height:27px;
+}
+.gpLayerDivClassAlternate {
+  height:27px;
+}
