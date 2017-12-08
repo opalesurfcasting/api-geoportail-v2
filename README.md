@@ -30,6 +30,6 @@ minified : https://cdn.jsdelivr.net/gh/opalesurfcasting/api-geoportail-v2@V2.1.2
 
 When canonicalized, libraries will not be combined or minifyed by mod_pagespeed, but it can be done through jsdlivr. It's up to you to check what is the best.
 
-https://geoservices.ign.fr/
-
 https://www.developpez.net/forums/d1784282/applications/sig-systeme-d-information-geographique/ign-api-geoportail/geoportalextended-js-github-ign-jsdelivr-net/
+
+https://geoservices.ign.fr/
