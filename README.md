@@ -32,4 +32,6 @@ When canonicalized, libraries will not be combined or minifyed by mod_pagespeed,
 
 https://www.developpez.net/forums/d1784282/applications/sig-systeme-d-information-geographique/ign-api-geoportail/geoportalextended-js-github-ign-jsdelivr-net/
 
+IGN (Géoportail) Sources repository : https://depot.ign.fr/geoportail/api/develop/tech-docs-js/fr/developpeur/download.html
+
 https://geoservices.ign.fr/
