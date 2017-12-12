@@ -39,3 +39,8 @@ https://geoservices.ign.fr/
 ## Informations de licence
 
 https://github.com/opalesurfcasting/api-geoportail-v2/blob/master/LICENSE
+
+## l'API Géoportail V3 :
+- [Kit de Développement (SDK) Géoportail](https://github.com/IGNF/geoportal-sdk)
+- [Bibliothèque d'accès aux ressources du Géoportail](https://github.com/IGNF/geoportal-access-lib)
+- [Extensions Géoportail pour Leaflet et Openlayers](https://github.com/IGNF/geoportal-extensions)
