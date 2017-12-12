@@ -35,3 +35,7 @@ https://www.developpez.net/forums/d1784282/applications/sig-systeme-d-informatio
 IGN (Géoportail) Sources repository : https://depot.ign.fr/geoportail/api/develop/tech-docs-js/fr/developpeur/download.html
 
 https://geoservices.ign.fr/
+
+## Informations de licence
+
+https://github.com/opalesurfcasting/api-geoportail-v2/blob/master/LICENSE
