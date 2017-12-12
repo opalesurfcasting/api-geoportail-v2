@@ -1,9 +1,11 @@
 # api-geoportail-v2
 
 
-Canonicalize Géoportail API V2.12 using jsDelivr Github CDN and mod_pagespeed.
+Canonicalize Géoportail API V2.12 using jsDelivr Github CDN and/or mod_pagespeed.
 
-## In Apache pagespeed.conf:
+[![](https://data.jsdelivr.com/v1/package/gh/opalesurfcasting/api-geoportail-v2/badge)](https://www.jsdelivr.com/package/gh/opalesurfcasting/api-geoportail-v2)
+
+## Using Apache [mod_pagespeed](https://github.com/pagespeed/mod_pagespeed/) - In pagespeed.conf:
 
 This will enable canonicalization for GeoportalExtended.js (API geoportail V2.1.2) using [jsDelivr Github CDN](https://www.jsdelivr.com/feature) - The parameter below will enable detection from this librarie size and checksum :
 ```
@@ -20,9 +22,7 @@ Find the size and checksum :
 
 `pagespeed_js_minify --print_size_and_hash GeoportalExtended.js` - [Find the size and checksum](https://www.modpagespeed.com/doc/filter-canonicalize-js)
 
-## Direct urls :
-
-[![](https://data.jsdelivr.com/v1/package/gh/opalesurfcasting/api-geoportail-v2/badge)](https://www.jsdelivr.com/package/gh/opalesurfcasting/api-geoportail-v2)
+## Including direct urls :
 
 minified : https://cdn.jsdelivr.net/gh/opalesurfcasting/api-geoportail-v2@V2.1.2/GeoportalExtended.min.js
 
