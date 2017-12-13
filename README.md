@@ -1,7 +1,7 @@
 # api-geoportail-v2
 
 
-Canonicalize Géoportail API V2.12 using jsDelivr Github CDN and/or mod_pagespeed.
+Canonicalize Géoportail API V2.12 using jsDelivr Github CDN and mod_pagespeed, or, included as a simple direct url.
 
 [![](https://data.jsdelivr.com/v1/package/gh/opalesurfcasting/api-geoportail-v2/badge)](https://www.jsdelivr.com/package/gh/opalesurfcasting/api-geoportail-v2)
 
