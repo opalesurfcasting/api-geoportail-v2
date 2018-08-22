@@ -30,7 +30,7 @@ minified : https://cdn.jsdelivr.net/gh/opalesurfcasting/api-geoportail-v2@V2.1.2
 
 ### V2.1.2.001
 
-fix rel=noopener in GeoportalExtended.js https://mathiasbynens.github.io/rel-noopener/
+fix `target='_blank'` without `rel=noopener` in GeoportalExtended.js https://mathiasbynens.github.io/rel-noopener/
 
 ## Notes :
 
