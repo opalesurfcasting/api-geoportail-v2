@@ -13,10 +13,10 @@ ModPagespeedEnableFilters canonicalize_javascript_libraries
 ```
 Adding this :
 ```
- ModPagespeedLibrary 2500817 t1KCnbbw9WCA9AxmAnMKY \
-    //cdn.jsdelivr.net/gh/opalesurfcasting/api-geoportail-v2@V2.1.2/GeoportalExtended.min.js
+ ModPagespeedLibrary 2501269 5yPlU-U_10J9ooJ2-1Dsy \
+    //cdn.jsdelivr.net/gh/opalesurfcasting/api-geoportail-v2@V2.1.2.001/GeoportalExtended.min.js
 ```    
-will enable canonicalization for GeoportalExtended.js, also based on file size 2500817 and checksum. This is needed as this file is not in default [canonicalized libraries list](https://github.com/pagespeed/mod_pagespeed/blob/master/net/instaweb/genfiles/conf/pagespeed_libraries.conf).
+will enable canonicalization for GeoportalExtended.js, also based on file size 2501269 and checksum. This is needed as this file is not in default [canonicalized libraries list](https://github.com/pagespeed/mod_pagespeed/blob/master/net/instaweb/genfiles/conf/pagespeed_libraries.conf).
 
 Find the size and checksum :
 
@@ -24,7 +24,13 @@ Find the size and checksum :
 
 ## Including direct urls :
 
-minified : https://cdn.jsdelivr.net/gh/opalesurfcasting/api-geoportail-v2@V2.1.2/GeoportalExtended.min.js
+minified : https://cdn.jsdelivr.net/gh/opalesurfcasting/api-geoportail-v2@V2.1.2.001/GeoportalExtended.min.js
+
+## Update since last IGN release (V2.1.2)
+
+### V2.1.2.001
+
+fix rel=noopener in GeoportalExtended.js https://mathiasbynens.github.io/rel-noopener/
 
 ## Notes :
 
