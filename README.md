@@ -34,7 +34,7 @@ fix `target='_blank'` without `rel='noopener'` in GeoportalExtended.js https://m
 
 ## Notes :
 
-When canonicalized, libraries will not be combined or minifyed by mod_pagespeed, but it can be done through jsdlivr. It's up to you to check what is the best.
+When canonicalized, [libraries will not be combined or minifyed by mod_pagespeed](https://www.modpagespeed.com/doc/filter-canonicalize-js), but it can be done through jsdlivr. It's up to you to check what is the best.
 
 https://www.developpez.net/forums/d1784282/applications/sig-systeme-d-information-geographique/ign-api-geoportail/geoportalextended-js-github-ign-jsdelivr-net/
 
